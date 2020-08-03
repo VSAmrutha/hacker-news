@@ -15,7 +15,7 @@ function Table(props) {
   const fecthData = async () => {
     try {
       const fetchRes = await axios.get(
-        `http://hn.algolia.com/api/v1/search?page=${page}`
+        `https://hn.algolia.com/api/v1/search?page=${page}`
       );
       if (
         page !== fetchRes.data.page ||

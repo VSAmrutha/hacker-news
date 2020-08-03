@@ -1,0 +1,10 @@
+.header {
+  height: 2.5rem;
+  background-color: #ff6600;
+
+  width: 100%;
+}
+.headerImage {
+  max-height: 100%;
+  max-width: 100%;
+}

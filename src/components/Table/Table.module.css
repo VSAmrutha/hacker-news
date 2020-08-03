@@ -1,0 +1,100 @@
+/* .trtd:nth-child(odd) {
+  background-color: red;
+}
+.trtd:nth-child(odd) {
+  background-color: blue;
+} */
+.tableDetail {
+  table-layout: auto;
+  width: 100%;
+  margin-top: 1rem;
+}
+.tableDetail tr th {
+  background-color: #ff6600;
+  color: #fff;
+}
+.tableDetail tr:nth-child(odd) td {
+  background-color: #f2f2f2;
+}
+.tableDetail tr:nth-child(even) td {
+  background-color: #ddd;
+}
+.tableDetail,
+th,
+td {
+  border: none;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+th {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+.thStyle,
+.tdStyle {
+  text-align: left;
+}
+.thStyle span {
+  color: #858383;
+}
+.linkText {
+  text-decoration: none;
+  color: black;
+}
+/* td[data-id="5"] {
+  color: red !important;
+} */
+
+.details {
+  width: 90%;
+  text-align: left;
+}
+.upvoteImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+.orangeButton {
+  background-color: transparent;
+  color: #ff6600;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  border: none;
+
+  font-size: 1rem;
+}
+
+.orangeButton:focus,
+.hideButton:focus,
+.upvoteImageButton:focus {
+  outline: none;
+}
+.disableStyle {
+  opacity: 0.5;
+  cursor: auto;
+}
+.buttonwrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: #ff6600;
+  font-weight: bold;
+}
+.hideButton {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+}
+.upvoteImageButton {
+  background-color: transparent;
+  width: 1rem;
+  cursor: pointer;
+  border: none;
+}
